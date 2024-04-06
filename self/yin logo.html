@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo Yin</title>
+    <style>
+        .main{
+            width: 96px;
+            height: 48px;
+            background-color: white;
+            position: relative;
+            border-style: solid;
+            border-width: 2px 2px 50px 2px;
+            border-radius: 100%;
+        
+        
+
+        }
+         .main::before{
+            top: 50%;
+            border: 18px solid #000;
+            left: 0;
+            content: "";
+            background: #fff;
+            position: absolute;
+            border-radius: 100%;
+            width: 12px;
+            height: 12px;
+        }
+         .main::after{
+            top: 50%;
+            border: 18px solid white;
+            left: 50%;
+            content: "";
+            background: black;
+            position: absolute;
+            border-radius: 100%;
+            width: 12px;
+            height: 12px;
+        }  
+    </style>
+</head>
+<body>
+    <h1>yin yang</h1>
+    <div class="main"></div>
+</body>
+</html>
