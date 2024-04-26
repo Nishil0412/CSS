@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flextask</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: blue;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+
+        .main1 {
+            background-color: black;
+            height: 500px;
+            width: 500px;
+            
+
+        }
+
+        .main2 {
+            background-color: red;
+            height: 500px;
+            width: 500px;
+            
+
+        }
+
+        .upper {
+            background-color: plum;
+            width: 500px;
+            height: 80px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .lowwermain {
+            height: 400px;
+            width: 500px;
+            display: flex;
+            gap: 10px;
+            
+        }
+        .lowwer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .one {
+            background-color: rgb(189, 155, 5);
+            width: 250px;
+            height: 300px;
+        }
+        .two {
+            background-color: red;
+            height: 120px;
+            width: 250px;
+        }
+        .three{
+            background-color: skyblue ;
+            height: 420px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main1">
+            <div class="upper"></div>
+            <div class="lowwermain">
+                <div class="lowwer">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                </div>
+                    <div class="lowwer2">
+                        <div class="three"></div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="main2"></div>
+    </div>
+</body>
+
+</html>
