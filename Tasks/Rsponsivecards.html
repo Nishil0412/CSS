@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 3 cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+        }
+        .one{
+            height: 500px;
+            width: 300px;
+            border: 2px solid black;
+            overflow: scroll;     
+            overflow-x: hidden;   
+        }
+        .two{
+            height: 500px;
+            width: 300px;
+            border: 2px solid black;
+            overflow: scroll;  
+            overflow-x: hidden;   
+        }
+        .three{
+            height: 500px;
+            width: 300px;
+            border: 2px solid black;
+            overflow: scroll;  
+            overflow-x: hidden;   
+        }
+        img{
+            height: 250px;
+            width: 300px;
+        }
+        @media screen and (max-width: 767px) {
+            .container{
+                display: block;
+                margin-left: 50px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <img src="https://images.unsplash.com/photo-1714578249108-7266ba0d8d34?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat, deserunt, est odio modi autem quidem, nostrum repellat nulla nemo sapiente! Labore saepe, ad recusandae debitis sit tenetur provident earum obcaecati. Natus blanditiis, dolores incidunt nostrum id labore totam aliquam velit asperiores officiis tenetur omnis sint, error voluptas temporibus aut tempora facilis repellat quibusdam dolore numquam porro dignissimos repellendus. Quam voluptatum architecto reiciendis minima sunt harum, quia recusandae natus non excepturi fugiat odio vitae, error, dicta quod omnis. Libero odit magnam omnis, blanditiis adipisci expedita repudiandae nobis laboriosam, reiciendis tempora neque laborum nemo molestias. Odio, sint officia. Delectus, officia dolores.</p>
+        </div>
+        
+        <div class="two">
+            <img src="https://plus.unsplash.com/premium_photo-1675700385856-bfdb790f6758?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat, deserunt, est odio modi autem quidem, nostrum repellat nulla nemo sapiente! Labore saepe, ad recusandae debitis sit tenetur provident earum obcaecati. Natus blanditiis, dolores incidunt nostrum id labore totam aliquam velit asperiores officiis tenetur omnis sint, error voluptas temporibus aut tempora facilis repellat quibusdam dolore numquam porro dignissimos repellendus. Quam voluptatum architecto reiciendis minima sunt harum, quia recusandae natus non excepturi fugiat odio vitae, error, dicta quod omnis. Libero odit magnam omnis, blanditiis adipisci expedita repudiandae nobis laboriosam, reiciendis tempora neque laborum nemo molestias. Odio, sint officia. Delectus, officia dolores.</p>
+        </div>
+        
+        <div class="three">
+            <img src="https://images.unsplash.com/photo-1714496092418-66838cb18023?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat, deserunt, est odio modi autem quidem, nostrum repellat nulla nemo sapiente! Labore saepe, ad recusandae debitis sit tenetur provident earum obcaecati. Natus blanditiis, dolores incidunt nostrum id labore totam aliquam velit asperiores officiis tenetur omnis sint, error voluptas temporibus aut tempora facilis repellat quibusdam dolore numquam porro dignissimos repellendus. Quam voluptatum architecto reiciendis minima sunt harum, quia recusandae natus non excepturi fugiat odio vitae, error, dicta quod omnis. Libero odit magnam omnis, blanditiis adipisci expedita repudiandae nobis laboriosam, reiciendis tempora neque laborum nemo molestias. Odio, sint officia. Delectus, officia dolores.</p>
+        </div>
+       
+        
+
+    </div>
+</body>
+</html>
