@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.button{
+    height: 100%;
+    color: white;
+    
+}
+button{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#login{
+    background-color: orange;
+    color: white;
+}
+#signup{
+    background-color: rgb(235, 203, 141);
+    color: orange;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main1{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+}
+.main2{
+    height: 100%;
+    width: 50%;
+    
+}
+.sub1{
+    height: 50%;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+}
+.sub2{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.w1{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.w2{
+    height: 100%;
+    width: 50%;
+}
+.w3{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+}
+.w4{
+    height: 100%;
+    width: 50%;
+}
+.main1 img{
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 250px;
+
+}
+.main1 h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 50px;
+
+}
+.main p{
+    text-align: center;
+}
+
+.button1{
+    margin-top: 25px;
+    margin-left: 235px;
+}
+#b1{
+    background-color: rgb(235, 203, 141);      height: 40px;
+    width: 130px;
+    border-radius: 10px;
+}
+#b2{
+    background-color: rgb(235, 203, 141);
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    color: orange;
+    
+}
+
+#span{
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 70px;
+  
+}
+
+img:hover{
+    transform: scale(1.15);
+    transition: all ease-in-out 1s;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+#wb1{
+    background-color: rgb(235, 203, 141);      height: 40px;
+    width: 130px;
+    border-radius: 10px;
+}
+#wb2{
+    background-color: rgb(235, 203, 141);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: orange;
+}
+#wspan{
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 40px;
+  
+}
+.wbutton1{
+    margin-top: 25px;
+    margin-left: 70px;
+    
+}
